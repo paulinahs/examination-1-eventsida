@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Crevo";
+  src: url("fonts/Crevo-3lyKZ.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.highlights {
+}
+
+.highlightsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.highlightsBox {
+  background: linear-gradient(135deg, #ffffff 0%, #ffcad4 50%, #ffe5d9 100%);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  min-width: 20rem;
+  min-height: 8rem;
+  max-width: 16rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlightsBox:hover {
+  background: linear-gradient(135deg, #ffffff 50%, #ffcad4 100%, #ffe5d9 25%);
+  border: 2px solid #555555;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.highlightsTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #181818;
+  font-family: "Crevo", sans-serif;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.highlightsTime {
+  font-weight: 800;
+  font-size: 0.8rem;
+  padding-top: 1rem;
+  margin: 0;
+}
+
+.highlightsDesc {
+  font-size: 0.8rem;
+}
