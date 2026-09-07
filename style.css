@@ -2,8 +2,8 @@
     width: 100%;
     max-width: 600px;
     height: auto;
-    display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 .hero-image {
@@ -12,4 +12,29 @@
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #fcdfe5;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #75414a;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
 }
