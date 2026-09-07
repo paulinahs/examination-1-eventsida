@@ -24,7 +24,7 @@ body {
 }
 
 .highlightsBox {
-  background: linear-gradient(135deg, #ffffff 0%, #ffcad4 50%, #ffe5d9 100%);
+  background: linear-gradient(160deg, #ffffff 0%, #e0c3fc 45%, #cbbcf6 100%);
   padding: 1rem;
   border-radius: 12px;
   border: 2px solid #e0e0e0;
@@ -36,7 +36,7 @@ body {
 }
 
 .highlightsBox:hover {
-  background: linear-gradient(135deg, #ffffff 50%, #ffcad4 100%, #ffe5d9 25%);
+  background: linear-gradient(260deg, #ffffff 0%, #e0c3fc 25%, #cbbcf6 100%);
   border: 2px solid #555555;
   transition: 0.5s;
   cursor: pointer;
@@ -44,12 +44,12 @@ body {
 
 .highlightsTitle {
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 500;
   text-transform: uppercase;
   color: #181818;
   font-family: "Crevo", sans-serif;
   margin: 0;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .highlightsTime {
