@@ -6,12 +6,12 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
   padding: 0;
   margin: 0;
-}
-
-.highlights {
+  background: #f2ecf8;
 }
 
 .highlightsRow {
@@ -19,7 +19,7 @@ body {
   flex-wrap: wrap;
   justify-content: start;
   align-items: stretch;
-  gap: 0.5rem;
+  gap: 0.8rem;
   margin: 1rem;
 }
 
@@ -53,12 +53,27 @@ body {
 }
 
 .highlightsTime {
-  font-weight: 800;
-  font-size: 0.8rem;
-  padding-top: 1rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -1px;
+  color: #253041;
+  padding-top: 0.2rem;
   margin: 0;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
 }
 
 .highlightsDesc {
   font-size: 0.8rem;
+}
+
+@media screen and (max-width: 600px) {
+  .highlightsBox {
+    min-width: 100%;
+  }
+  .highlightsRow {
+    justify-content: center;
+    margin: 4rem;
+  }
 }
