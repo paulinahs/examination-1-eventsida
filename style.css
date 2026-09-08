@@ -46,7 +46,7 @@ body {
   font-size: 2rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #181818;
+  color: #17004e;
   font-family: "Crevo", sans-serif;
   margin: 0;
   letter-spacing: 2px;
@@ -55,13 +55,11 @@ body {
 .highlightsTime {
   font-weight: 600;
   font-size: 1.4rem;
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   color: #253041;
   padding-top: 0.2rem;
   margin: 0;
-  font-family:
-    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-    Arial, sans-serif;
+  font-family: "Be Vietnam Pro";
 }
 
 .highlightsDesc {
