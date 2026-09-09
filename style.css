@@ -14,6 +14,11 @@ body {
   background: #f2ecf8;
 }
 
+.highlights {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .highlightsRow {
   display: flex;
   flex-wrap: wrap;
