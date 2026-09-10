@@ -1,3 +1,92 @@
+@font-face {
+  font-family: "Crevo";
+  src: url("fonts/Crevo-3lyKZ.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #f2ecf8;
+}
+
+.highlights {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.highlightsRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: stretch;
+  gap: 0.8rem;
+  margin: 1rem;
+}
+
+.highlightsBox {
+  background: linear-gradient(160deg, #ffffff 0%, #e0c3fc 45%, #cbbcf6 100%);
+  padding: 1rem;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  min-width: 20rem;
+  min-height: 8rem;
+  max-width: 16rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.highlightsBox:hover {
+  background: linear-gradient(260deg, #ffffff 0%, #e0c3fc 25%, #cbbcf6 100%);
+  border: 2px solid #555555;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.highlightsTitle {
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #17004e;
+  font-family: "Crevo", sans-serif;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.highlightsTime {
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: -2px;
+  color: #253041;
+  padding-top: 0.2rem;
+  margin: 0;
+  font-family: "Be Vietnam Pro";
+}
+
+.highlightsDesc {
+  font-size: 0.8rem;
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #17004e;
+}
+
+@media screen and (max-width: 600px) {
+  .highlightsBox {
+    min-width: 100%;
+  }
+  .highlightsRow {
+    justify-content: center;
+    margin: 4rem;
+  }
+}
 .hero-content {
     width: 100%;
     max-width: 600px;
