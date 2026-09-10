@@ -78,15 +78,7 @@ body {
   color: #17004e;
 }
 
-@media screen and (max-width: 600px) {
-  .highlightsBox {
-    min-width: 100%;
-  }
-  .highlightsRow {
-    justify-content: center;
-    margin: 4rem;
-  }
-}
+
 .hero-content {
     width: 100%;
     max-width: 600px;
@@ -160,12 +152,6 @@ h1 {
 }
 
 
-@media (max-width: 600px) {
-     .info-tabell {
-         grid-template-columns: 1fr; }  
-
-
-     }
 
 
 nav {
@@ -198,4 +184,19 @@ footer {
   display: flex;
   justify-content: space-around;
 }
+
+
+@media screen and (max-width: 600px) {
+  .highlightsBox {
+    min-width: 100%;
+  }
+  .highlightsRow {
+    justify-content: center;
+    margin: 4rem;
+  }
+  .info-tabell {
+         grid-template-columns: 1fr; }  
+}
+
+
 
