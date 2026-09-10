@@ -3,7 +3,6 @@ Semantisk HTML innebär att man använder HTML-element som beskriver innehållet
 
 På vår eventsida har vi använt semantiska element för att göra strukturen tydligare för både användare och webbläsare. Till exempel används `<header>` för hero-sektionen och `<nav>` för navigationsmenyn.
 
-**3. Vad är den största skillnaden mellan Flexbox och CSS Grid, och när ska man använda vilket verktyg? Motivera utifrån hur ni fördelade dem på er sida.**
 
 
 ## 2. Hur fungerar arv i CSS? Ge ett exempel från er egen kod.
@@ -18,6 +17,7 @@ body {
 
 
 ## 3. Vad är den största skillnaden mellan Flexbox och CSS Grid, och när ska man använda vilket verktyg? Motivera utifrån hur ni fördelade dem på er sida.
+Den största skillnaden mellan flexbox och grid är att flexbox är endimensionell och hanterar "content" på enbart en axel i taget. Medans grid är tvådimensionell tänk ett rutnät. På vår sida så använde vi grid för vårat spelschema för att kunna att enkelt kunna rada upp elementen både horisontellt och vertikalt.
 
 
  
