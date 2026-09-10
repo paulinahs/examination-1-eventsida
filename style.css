@@ -1,0 +1,38 @@
+
+.info-tabell-title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: rgb(235, 254, 207);
+    border: 3px solid rgb(12, 46, 27);
+    color: rgb(12, 46, 27);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.info-tabell {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.info-box {
+    background-color: rgb(235, 254, 207);
+    color: rgb(12, 46, 27);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 3px solid rgb(12, 46, 27);
+    text-align: center;
+    font-weight: 800;
+}
+
+
+@media (max-width: 600px) {
+     .info-tabell {
+         grid-template-columns: 1fr; }  
+
+
+     }
